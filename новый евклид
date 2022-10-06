@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+f,h = a,b
+while a!= 0 and b != 0:
+  if a > b:
+    a = a - b
+  else:
+    b = b - a
+s = a + b
+r = f * h // s
+print('НОД =', s, 'НОК =',r)
